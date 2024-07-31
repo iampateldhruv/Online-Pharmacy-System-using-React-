@@ -1,0 +1,56 @@
+/* MedicineCatalog.css */
+
+.MedicineCatalog {
+    padding: 20px;
+  }
+  
+  .MedicineList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .MedicineItem {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .MedicineItem:hover {
+    transform: translateY(-5px);
+  }
+  
+  .MedicineName {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .MedicineDescription {
+    margin-bottom: 10px;
+  }
+  
+  .MedicinePrice {
+    font-weight: bold;
+    color: green;
+  }
+  
+  .Cart {
+    margin-top: 20px;
+  }
+  
+  .CartItems {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .CartItem {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  

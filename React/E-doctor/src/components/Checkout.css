@@ -1,0 +1,35 @@
+/* src/components/Checkout.css */
+
+.Checkout {
+    padding: 20px;
+  }
+  
+  .Checkout h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .Checkout h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .Checkout textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .Checkout button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .Checkout button:hover {
+    background-color: #45a049;
+  }
+  

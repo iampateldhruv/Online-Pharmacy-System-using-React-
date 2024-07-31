@@ -1,0 +1,30 @@
+/* Cart.css */
+
+.Cart {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .CartItems {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .CartItem {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .CartItem h4 {
+    margin: 0;
+  }
+  
+  .CartItem p {
+    margin: 5px 0;
+  }
+  
